@@ -153,7 +153,7 @@ El script usa `seed=42`, valida los conteos de suciedad inyectada y escribe
 streamlit run app.py
 ```
 
-Abre <http://localhost:8501>. El CSV ya está versionado, así que el paso 2 es opcional si solo quieres
+El CSV ya está versionado, así que el paso 2 es opcional si solo quieres
 ver la app.
 
 > Si `python` no está en el PATH, usa la ruta completa del intérprete o el launcher `py` de Windows
