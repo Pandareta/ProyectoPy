@@ -1,0 +1,30 @@
+# Byte-compiled / caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Datos procesados: se regeneran con el pipeline
+data/processed/
+
+# data/raw SÍ se versiona (Streamlit Cloud no tiene base de datos externa)
+!data/raw/
+!data/raw/*.csv
